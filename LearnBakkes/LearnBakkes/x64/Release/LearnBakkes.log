@@ -1,0 +1,44 @@
+﻿  LearnBakkes.cpp
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\linmath.h(56): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\linmath.h(57): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\linmath.h(58): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\linmath.h(341): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\wrapperstructs.h(304): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\wrapperstructs.h(305): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\cvarwrapper.h(20): warning C4251: 'CVarWrapper::pimpl': class 'std::unique_ptr<CVarWrapper::Impl,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'CVarWrapper'
+          with
+          [
+              _Ty=CVarWrapper::Impl
+          ]
+  c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\cvarwrapper.h(20): note: see declaration of 'std::unique_ptr<CVarWrapper::Impl,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=CVarWrapper::Impl
+          ]
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\cvarmanagerwrapper.h(37): warning C4251: 'CVarManagerWrapper::pimpl': class 'std::unique_ptr<CVarManagerWrapper::Impl,std::default_delete<_Ty>>' needs to have dll-interface to be used by clients of class 'CVarManagerWrapper'
+          with
+          [
+              _Ty=CVarManagerWrapper::Impl
+          ]
+  c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\wrappers\cvarmanagerwrapper.h(37): note: see declaration of 'std::unique_ptr<CVarManagerWrapper::Impl,std::default_delete<_Ty>>'
+          with
+          [
+              _Ty=CVarManagerWrapper::Impl
+          ]
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\plugin\bakkesmodplugin.h(61): warning C4251: 'BakkesMod::Plugin::BakkesModPlugin::cvarManager': class 'std::shared_ptr<CVarManagerWrapper>' needs to have dll-interface to be used by clients of class 'BakkesMod::Plugin::BakkesModPlugin'
+  c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\plugin\bakkesmodplugin.h(61): note: see declaration of 'std::shared_ptr<CVarManagerWrapper>'
+c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\plugin\bakkesmodplugin.h(62): warning C4251: 'BakkesMod::Plugin::BakkesModPlugin::gameWrapper': class 'std::shared_ptr<GameWrapper>' needs to have dll-interface to be used by clients of class 'BakkesMod::Plugin::BakkesModPlugin'
+  c:\program files (x86)\steam\steamapps\common\rocketleague\binaries\win64\bakkesmod\bakkesmodsdk\include\bakkesmod\plugin\bakkesmodplugin.h(62): note: see declaration of 'std::shared_ptr<GameWrapper>'
+e:\bakkes\learnbakkes\learnbakkes\learnbakkes.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\bakkes\learnbakkes\learnbakkes\learnbakkes.cpp(39): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     Creating library E:\Bakkes\LearnBakkes\x64\Release\LearnBakkes.lib and object E:\Bakkes\LearnBakkes\x64\Release\LearnBakkes.exp
+  Generating code
+  184 of 322 functions (57.1%) were compiled, the rest were copied from previous compilation.
+    80 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  LearnBakkes.vcxproj -> E:\Bakkes\LearnBakkes\x64\Release\LearnBakkes.dll
+  17:12:22 [INFO] Unloading LearnBakkes
+  17:12:22 [INFO] Copying plugin to C:\Program Files (x86)\Steam\steamapps\common\rocketleague\Binaries\Win64\bakkesmod\plugins\LearnBakkes.dll
+  17:12:22 [INFO] Loading LearnBakkes
+  17:12:22 [INFO] Done
